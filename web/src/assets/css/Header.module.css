@@ -1,0 +1,36 @@
+
+.header{
+    background: transparent;
+    height: 100px;
+    font-family: 'Montserrat', sans-serif;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    transition: 0.5s;
+}
+
+.header ul {
+    padding: 0px;
+    list-style: none;    
+    margin: auto 0px;
+}
+
+.header ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font: 600 14px/30px Montserrat,sans-serif;
+    letter-spacing: 1px;
+}
+
+.scrollNavbar{
+    background: white!important;
+    z-index: 10;
+    height: 70px;
+    transition: 0.5s;
+}
+
+.scrollNavbar ul li a{
+    color: #0aa8c2;
+}
